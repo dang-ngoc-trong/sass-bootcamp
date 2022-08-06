@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>TaBuaLa Team-Way</title>
+
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Roboto FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Montserrat font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Our Custom CSS -->
+
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <img src="./img/crest.png" alt="" />
+        </div>
+
+        <ul class="list-unstyled components">
+          <li>
+            <a
+              href="#homeSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Home</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="#">Wavy</a>
+              </li>
+              <li>
+                <a href="#">Sunny</a>
+              </li>
+              <li>
+                <a href="#">Shady</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="active">
+            <a
+              href="#aboutSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >About</a
+            >
+            <ul class="collapse list-unstyled" id="aboutSubmenu">
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">About Mentor</a>
+              </li>
+              <li>
+                <a href="#">Our team</a>
+              </li>
+              <li>
+                <a href="#">History</a>
+              </li>
+              <li>
+                <a href="#">Testimonials</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Coming soon</a>
+              </li>
+              <li>
+                <a href="#">404</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a
+              href="#coursesSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Courses</a
+            >
+            <ul class="collapse list-unstyled" id="coursesSubmenu">
+              <li>
+                <a href="#">Courses</a>
+              </li>
+              <li>
+                <a href="#">Single Courses</a>
+              </li>
+              <li>
+                <a href="#">Schedule</a>
+              </li>
+              <li>
+                <a href="#">Workshop</a>
+              </li>
+              <li>
+                <a href="#">Workshops & Events</a>
+              </li>
+              <li>
+                <a href="#">Get Quote</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a
+              href="#blogSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Blog</a
+            >
+            <ul class="collapse list-unstyled" id="blogSubmenu">
+              <li>
+                <a href="#">Standard view</a>
+              </li>
+              <li>
+                <a href="#">Columms view</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a
+              href="#shopSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Shop</a
+            >
+            <ul class="collapse list-unstyled" id="shopSubmenu">
+              <li>
+                <a href="#">Products</a>
+              </li>
+              <li>
+                <a href="#">Cart</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a
+              href="#elementSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Element</a
+            >
+            <ul class="collapse list-unstyled" id="elementSubmenu">
+              <li>
+                <a href="#">Base</a>
+              </li>
+              <li>
+                <a href="#">Common</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="contact-sidebar">
+          <a href="#" class="button">
+            <i class="fa-solid fa-phone-flip"></i>
+            <span>(+1) 555 234-8765</span>
+          </a>
+        </div>
+        <span class="contact_icon">
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </span>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content">
+        <header id="header">
+          <div class="background-top"></div>
+          <div class="container_">
+            <div class="nav-logo">
+              <button type="button" id="sidebarCollapse" class="navbar_toggler">
+                <i class="fa-solid fa-bars open"></i>
+                <i class="fa-solid fa-xmark close"></i>
+              </button>
+
+              <a class="navbar_brand" href="#"
+                ><img src="./img/crest.png" alt="..."
+              /></a>
+            </div>
+            <div class="navbar_link">
+              <ul>
+                <li>
+                  <a href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Courses</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Shop</a>
+                </li>
+                <li>
+                  <a href="#">Elements</a>
+                </li>
+              </ul>
+              <div class="contactbar">
+                <div class="contact-item">
+                  <a href="#" class="button">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <span>(+1) 555 234-8765</span>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="aboutUs">
+          <div class="container_">
+            <div class="intro">
+              <h1>ABOUT US</h1>
+              <span>The language teaching experts</span>
+            </div>
+            <div class="image">
+              <img src="./img/hero_team.png" alt="..." />
+            </div>
+          </div>
+        </section>
+        <section class="team-list">
+          <div class="container_">
+            <div class="grid-container">
+              <div
+                class="grid-item wow animate__animated animate__fadeIn"
+                data-wow-delay="0.25s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_1.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>ITALIAN</span>
+                  <h4>July Roberts</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="grid-item wow animate__animated animate__fadeIn"
+                data-wow-delay="0.5s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_2.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>FRENCH</span>
+                  <h4>Jon Stone</h4>
+                  <p>Nanotechnology immersion along the information.</p>
+                </div>
+              </div>
+              <div
+                class="grid-item wow animate__animated animate__fadeIn"
+                data-wow-delay="0.75s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_3.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>JAPANESE</span>
+                  <h4>Emma Stone</h4>
+                  <p>
+                    Bring to the table win-win survival strategies to ensure.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="grid-item wow animate__animated animate__fadeIn"
+                data-wow-delay="1s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_4.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>CHINESE</span>
+                  <h4>Mark Lee</h4>
+                  <p>
+                    Proactive domination. At the end of the day, going forward.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="grid-item bottom wow animate__animated animate__fadeIn"
+                data-wow-delay="0.25s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_5.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>RUSSIAN</span>
+                  <h4>John Doe</h4>
+                  <p>A new normal that has evolved from generation X.</p>
+                </div>
+              </div>
+              <div
+                class="grid-item bottom wow animate__animated animate__fadeIn"
+                data-wow-delay="0.5s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_6.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>SWEDEN</span>
+                  <h4>Jane Smith</h4>
+                  <p>Heading towards a streamlined cloud solution.</p>
+                </div>
+              </div>
+              <div
+                class="grid-item bottom wow animate__animated animate__fadeIn"
+                data-wow-delay="0.75s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_7.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>SPANISH</span>
+                  <h4>Hanna Alverez</h4>
+                  <p>Content in real-time will have multiple touchpoints.</p>
+                </div>
+              </div>
+              <div
+                class="grid-item bottom wow animate__animated animate__fadeIn"
+                data-wow-delay="1s"
+              >
+                <div class="thumbnail">
+                  <img src="./img/teacher_8.jpg" alt="" />
+                </div>
+                <div class="detail">
+                  <span>ITALIAN</span>
+                  <h4>July Roberts</h4>
+                  <p>Capitalize on low hanging fruit to identify a ballpark.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="find_cource">
+          <div class="container_section">
+            <div class="left wow animate__animated animate__fadeInLeft">
+              <div class="thumbnail">
+                <img src="./img/conatct_inner.png" alt="" />
+              </div>
+            </div>
+            <div class="right wow animate__animated animate__fadeIn">
+              <div class="div">
+                <div class="form_container">
+                  <div class="form_content">
+                    <h4>Find Your Course</h4>
+                    <form action="">
+                      <div class="form-row row">
+                        <div class="left col-6">
+                          <span class="icon_name">
+                            <i class="fas fa-user"></i>
+                          </span>
+                          <input type="text" placeholder="Name" />
+                        </div>
+                        <div class="right col-6">
+                          <span class="icon_email">
+                            <i class="fas fa-envelope"></i>
+                          </span>
+                          <input type="text" placeholder="E-mail" />
+                        </div>
+                      </div>
+                      <div class="form_select">
+                        <span class="icon_english">
+                          <i class="fas fa-graduation-cap"></i>
+                        </span>
+                        <select name="" id="">
+                          <option value="">English</option>
+                          <option value="">French</option>
+                          <option value="">Spanish</option>
+                          <option value="">German</option>
+                        </select>
+                      </div>
+                      <div class="form-text">
+                        <span class="icon_textarea">
+                          <i class="fas fa-comment-alt"></i>
+                        </span>
+                        <textarea
+                          name=""
+                          id=""
+                          cols="40"
+                          rows="10"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <div class="form-submit">
+                        <button class="btn-submit">SEND</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="section_background">
+            <div class="container_">
+              <div class="section_container row">
+                <div
+                  class="contact col-12 col-sm-6 col-lg-3 glob wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.25s"
+                >
+                  <h3>Contact us</h3>
+                  <div class="detail">
+                    <p>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span> Franklin St, Greenpoint Ave </span>
+                    </p>
+                    <p>
+                      <i class="fas fa-phone"></i>
+                      <span> +2342 5446 67 </span>
+                    </p>
+                    <p>
+                      <i class="fas fa-clock"></i>
+                      <span> Monday - Friday: 8 AM - 5 PM </span>
+                    </p>
+                    <p>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="links col-12 col-sm-6 col-lg-3 glob wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.5s"
+                >
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li class="first"><a href="#">Home</a></li>
+                    <li class="clone"><a href="#">Courses</a></li>
+                    <li class="clone"><a href="#">Schedule</a></li>
+                    <li class="clone"><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+                <div
+                  class="about col-12 col-sm-6 col-lg-3 glob wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.75s"
+                >
+                  <h3>About</h3>
+                  <ul>
+                    <li class="first"><a href="#">About Us</a></li>
+                    <li class="clone"><a href="#">Events</a></li>
+                    <li class="clone"><a href="#">Get Quote</a></li>
+                    <li class="clone"><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div
+                  class="newsletter col-12 col-sm-6 col-lg-3 glob wow animate__animated animate__fadeIn"
+                  data-wow-delay="1s"
+                >
+                  <h3>Newsletter</h3>
+                  <form action="">
+                    <input type="text" placeholder="Your Email" />
+                    <button>SUBSRIBE</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./controller/index.js"></script>
+  </body>
+</html>
